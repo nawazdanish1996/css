@@ -1,0 +1,30 @@
+.container{
+    background-color: yellowgreen;
+}
+
+.box{
+    background-color: red;
+    /* width of the box */
+    width: 250px;
+    /* height of the box */
+    height: 250px;
+    /* positioning  of the box */
+    position: relative;
+    /* animation name whatever you can have */
+    animation-name: nawaz;
+    /* duration of the keyframe */
+    animation-duration: 5s;
+    /* Number of time will run */
+    animation-iteration-count: infinite;
+}
+
+@keyframes nawaz{
+    /* start will from 200px */
+    from{
+        width: 200px;
+    }
+    /* and end will be 600px */
+    to{
+        width:600px;
+    }
+}
