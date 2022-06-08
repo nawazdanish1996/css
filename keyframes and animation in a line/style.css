@@ -1,0 +1,47 @@
+.container{
+    background-color: yellowgreen;
+}
+
+.box{
+    background-color: red;
+    /* width of the box */
+    width: 250px;
+    /* height of the box */
+    height: 250px;
+    /* positioning  of the box */
+    position: relative;
+
+    /* animation-name: nawazdanish;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse; */
+
+
+    animation: nawazdanish infinite ease-in-out 5s 2s forwards reverse;
+}
+
+@keyframes nawazdanish{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 250px;
+        left: 0px;
+    }
+    75%{
+        top: 250px;
+        left: 250px;
+    }
+    100%{
+        top: 0px;
+        left: 250px;
+        border-radius: 50px;
+        text-align: center;
+        color: white;
+        padding: 50px;
+    }
+}
