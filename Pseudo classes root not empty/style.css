@@ -1,0 +1,25 @@
+/* :root Pseudo classes */
+
+/* :root and html works same */
+/* html{
+    color: red;
+} */
+/* :root{
+    color: red;
+} */
+
+/* :not Pseudo classes will work on each
+except selected tags */
+/* body :not(p, h1){
+    color: red;
+} */
+
+/* :empty Pseudo classes- after selected tags,
+tags will be emptey */
+div:empty{
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+}
