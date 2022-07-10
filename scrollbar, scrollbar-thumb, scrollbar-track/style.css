@@ -1,0 +1,39 @@
+/* ===== style 1 ===== */
+/* width */
+::-webkit-scrollbar{
+    width: 15px;
+    /* background: black; */
+}
+
+/* track */
+/* Scrolling on track */
+::-webkit-scrollbar-track{
+    /* box-shadow: 0 0 5px gray; */
+    background: green;
+    border-radius: 10px;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb{
+    background: yellow;
+    border-radius: 10px;
+}
+
+/* Corner */
+::-webkit-scrollbar-corner{
+    background-color: red;
+}
+
+/* hover on handle */
+::-webkit-scrollbar-thumb:hover{
+    background-color: lightskyblue;
+}
+
+
+/* ===== style 2 ===== */
+
+/* ===== style 3 ===== */
+
+/* ===== style 4 ===== */
+
+/* ===== style 5 ===== */
