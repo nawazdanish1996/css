@@ -1,0 +1,4 @@
+<audio controls autoplay loop>
+  <source src="path/your_song.mp3" type="audio/ogg">
+  <embed src="path/your_song.mp3" autostart="true" loop="true" hidden="true"> 
+</audio>
